@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SampleDLL", "SampleDLL.vcxproj", "{3BF48828-BDDA-4055-A055-22AD8021BC59}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestApp", "..\TestApp\TestApp.vcxproj", "{23610DC0-3DDB-422B-AFD4-299264017C7E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3BF48828-BDDA-4055-A055-22AD8021BC59} = {3BF48828-BDDA-4055-A055-22AD8021BC59}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BF48828-BDDA-4055-A055-22AD8021BC59}.Release|x64.ActiveCfg = Release|x64
+		{3BF48828-BDDA-4055-A055-22AD8021BC59}.Release|x64.Build.0 = Release|x64
+		{23610DC0-3DDB-422B-AFD4-299264017C7E}.Release|x64.ActiveCfg = Release|x64
+		{23610DC0-3DDB-422B-AFD4-299264017C7E}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
